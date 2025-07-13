@@ -1,12 +1,151 @@
-This repository contains my learning notes and resources on basic computer networking. Topics covered include:
+# 📘 Networking Fundamentals – Weekly Learning Notes
 
-- 🌐 OSI & TCP/IP Models
-- 📡 IP Addressing & Subnetting
-- 📶 TCP vs UDP
-- 🔌 Network Devices (Router, Switch, Hub, etc.)
-- 🔐 Basics of Network Security
+## 🖥️ Hardware & Software
+- **Data Transmission Modes**: Simplex, Half Duplex, Full Duplex
+- **Devices**: Hub, Bridge, Switch, Router
 
-This is part of my journey to build a strong foundation for a cybersecurity career.
+## 🧠 OSI Model (7 Layers)
+- Mnemonic: *All People Seem To Need Data Processing*
+1. Application
+2. Presentation
+3. Session
+4. Transport
+5. Network
+6. Data Link
+7. Physical
 
-🛠️ Tools used: Cisco Packet Tracer, Wireshark  
-📘 Learning platforms: YouTube, Coursera, FreeCodeCamp
+## 🌐 TCP/IP Model (4 Layers)
+- Mnemonic: *NITA*
+1. Network Interface
+2. Internet
+3. Transport
+4. Application
+
+## 🔗 Network Basics
+- **Topologies**: Mesh, Bus, Star
+- **Types of Networks**: LAN, MAN, WAN
+
+## 🧾 Addresses
+- **MAC Address**: Physical address of a device
+- **IP Address**: Logical address (Public, Private, Loopback, Classes A-E)
+
+## 📦 IP Header Fields
+- Version, IHL, TOS, Total Length, Identifier, Flags, Fragment Offset
+- TTL, Protocol, Header Checksum, Source IP, Destination IP, Options
+
+## 🔧 Subnetting
+- Divides network into smaller networks
+- Based on Hosts or Network requirement
+- VLSM (Variable Length Subnet Mask)
+
+## 🔧 Supernetting
+- Combines small networks into a large network
+- Binary conversion of network IDs → match bits → identify network portion
+
+## 🌍 DNS – Domain Name System
+- Name resolution: Flat & Hierarchical Name Space
+- Components:
+  - Root Servers (A–M)
+  - Top Level Domain (.com, .org, .pk)
+  - Authoritative Name Servers (e.g., www.facebook.com)
+- Modes: Recursive, Iterative
+
+## 🔁 NAT – Network Address Translation
+- Converts multiple private IPs to a single public IP
+
+## 📡 DHCP – Dynamic Host Configuration Protocol
+- **Client-Server Model** using DORA Process:
+  1. Discover
+  2. Offer
+  3. Request
+  4. Acknowledge
+- Ports:
+  - 67 (Server)
+  - 68 (Client)
+- DHCP Scope, Super Scope
+- Defined in RFC 2131
+
+## 📤 SMTP – Simple Mail Transfer Protocol
+- Sends email (Port 25)
+- Other email protocols: POP3, IMAP
+
+## 🔍 ARP – Address Resolution Protocol
+- Resolves IP to MAC address (IPv4 only)
+- Works within same network
+- Maintains CAM table (IP-MAC mapping)
+
+## 🔄 TCP vs UDP
+- **TCP**: Reliable, connection-oriented (used for important data)
+- **UDP**: Fast, connectionless (used for streaming, VoIP)
+
+## 🌀 Ports
+- Software-based, managed by OS
+- **Port Ranges**:
+  - Well-known: 0–1023 (HTTP, HTTPS, SMTP)
+  - Registered: 1024–49151 (MySQL, RDP)
+  - Dynamic: 49152–65535 (Temporary)
+
+### Common Ports
+| Service | Port |
+|--------|------|
+| HTTP   | 80   |
+| HTTPS  | 443  |
+| FTP    | 21   |
+| SSH    | 22   |
+| DNS    | 53   |
+| SMTP   | 25   |
+| POP3   | 110  |
+| RDP    | 3389 |
+
+## 🧩 Socket
+- Combination of:
+  - Source IP + Destination IP + Source Port + Destination Port
+
+## 🔗 URI Types
+- URL, URN → HTTP, HTTPS, FTP, SFTP, SSH
+
+## 🛠️ Common Network Services
+- DNS, SSH, SMTP, POP, IMAP, DHCP, FTP
+
+## 📟 Telnet vs SSH
+- Remote Access Tools
+- Telnet (Insecure), SSH (Secure)
+- Example Commands:
+  - `telnet 192.168.2.3`
+  - `ssh -l admin 192.168.2.2`
+
+## 🧪 Network Troubleshooting Commands
+- `ipconfig` – View IP Configuration
+- `ping` – Check connectivity
+- `netstat` – Show active connections
+- `tracert` – Trace route to destination
+- `nslookup` – DNS query tool
+
+## 💻 CMD Commands
+- `ipconfig /all` – Detailed IP info
+- `ipconfig /renew` – Request new IP
+- `netstat` – Active ports
+- `arp -a` – ARP table view
+- `arp -d` – ARP table clear
+- `nslookup www.google.com` – DNS query
+- `ftp 209.23.3.4` – Connect to FTP server
+
+## 📁 Cisco Packet Tracer File Types
+| Extension | Description |
+|-----------|-------------|
+| .pkt      | Simulated network (no instructions) |
+| .pka      | Activity file with steps and instructions |
+| .pksz     | Bundle of `.pka` files with hints |
+| .pkz      | Project or compressed bundle |
+
+---
+
+📌 *This repository is part of my ongoing learning journey into Networking & Cybersecurity.*
+
+Feel free to contribute, comment, or fork the repo if you're also learning!
+
+---
+
+### 🏷️ Tags: `#Networking` `#OSIModel` `#TCPIP` `#Subnetting` `#Cybersecurity` `#Ports` `#PacketTracer` `#LinuxCommands`
+
+---
