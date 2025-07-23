@@ -1,0 +1,85 @@
+.
+
+📘 Networking Devices & Initial Configuration – Learning Summary
+✅ Completed from Cisco Networking Academy
+📅 (Month-Year, e.g. July 2025)
+🎓 Focus: Foundational concepts of networking, device configuration, subnetting, protocols, and troubleshooting using Cisco IOS.
+
+📌 Key Concepts Learned
+🏗️ Hierarchical Network Design
+Explained the core, distribution, and access layers of network architecture
+
+Understood scalability, performance, and redundancy benefits
+
+☁️ Virtualization & Cloud Services
+Compared physical vs. virtual devices (routers, switches, firewalls)
+
+Described the role of cloud infrastructure in modern networks
+
+🔌 Ethernet & Switching
+Understood Ethernet operation at Layer 2
+
+Learned about MAC address tables and frame forwarding
+
+🌐 Network Layer & IP Routing
+Configured basic routing to enable end-to-end IP connectivity
+
+Learned how routers make forwarding decisions using routing tables
+
+✂️ IPv4 Subnetting
+Subnetted networks efficiently using VLSM (Variable Length Subnet Mask)
+
+Calculated usable hosts and address ranges
+
+🔁 Address Resolution Protocol (ARP)
+Understood ARP role in mapping IP addresses to MAC addresses
+
+Observed ARP request/reply process in LANs
+
+🗂️ DNS & DHCP
+Explained dynamic IP assignment via DHCP
+
+Analyzed how DNS resolves domain names to IP addresses
+
+🧱 Transport Layer Protocols
+Compared TCP vs. UDP for reliability, flow control, and speed
+
+Identified port numbers and sessions
+
+🧰 Practical Skills Gained
+Used Cisco IOS CLI for configuring switches and routers
+
+Built simple networks in Cisco Packet Tracer
+
+Verified connectivity with ping, traceroute, and show commands
+
+Configured static IPs, DHCP clients, and default gateways
+
+Performed basic troubleshooting of Layer 1 to Layer 3 issues
+
+💡 Tools & Platforms
+Cisco Packet Tracer
+
+Cisco IOS CLI (Command Line Interface)
+
+Subnetting calculators, ping, arp, ipconfig/netstat
+
+📎 Certificate / Badge
+(You can upload and link your certificate here)
+🔗 Cisco NetAcad Certificate - View
+
+🚀 Next Goals
+Study IPv6, VLANs, and Inter-VLAN Routing
+
+Begin preparation for CCNA certification
+
+Practice hands-on labs involving ACLs, NAT, and Router-on-a-Stick
+
+🔗 Repo Purpose
+This repository serves as:
+
+📒 A personal learning journal
+
+🔧 Reference for future networking projects
+
+💼 A portfolio asset to showcase practical networking knowledge
